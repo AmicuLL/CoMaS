@@ -71,7 +71,7 @@ CoMaS is a full-stack web application designed to simplify and automate internal
 
 Monolithic full-stack architecture:
 
-[ UI (React) ] ⇄ [ REST API (Spring Boot) ] ⇄ [ PostgreSQL DB ]
+[ UI (React) ] ⇄ [ REST API (Spring Boot) ] ⇄ [ PostgreSQL DB ]  
                               ⇡
                       [ ESP32 + RFID ]
 
