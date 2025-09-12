@@ -131,7 +131,7 @@ jwt.secret=your_secret_key
 ```
 
 ## 👤 Author
-*Berfela Ionuț*
+**Berfela Ionuț**  
 Bachelor's Degree Project – UTCN, Faculty of Electronics, Telecommunications and Information Technology (TST)
 
 ## 📄 License
