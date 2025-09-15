@@ -43,8 +43,8 @@ const char* serverURL = "https://your-domain.com:8443/api/v1/timesheet/employee"
 with your actual WiFi and backend API credentials.
 
 ### Optional GPIOs
-- CHECK_PIN (GPIO 4): Used to determine clock-in vs. clock-out.
-- LED_PIN (GPIO 2): Indicates connection and RFID reading status.
+- CHECK_PIN (GPIO 4): Used to determine clock-in vs. clock-out if used one device.
+- LED_PIN (GPIO 2): Indicates connection status (blinking - not connected, high - connected).
 
 ### HTML Interface
 
@@ -52,7 +52,7 @@ The sketch also serves a basic local page (on port 80) that displays:
 
 - Live time
 - Clock-in/out status
-- Multilingual messages (Romanian and English)
+- Multilingual response messages (Romanian and English)
 
 ---
 
@@ -68,13 +68,13 @@ This sketch is used to either:
 - To register a new UUID, type the command:
 `register: 123e4567e89b12d3a456426655440000` or `register: 123e4567-e89b-12d3-a456-426655440000`
 
->Must be a valid 32-character hex UUID (without hyphens). The sketch will write it to block 4 of the card once detected.
+>Must be a valid 32-character hex UUID. The sketch will write it to block 4 of the card once detected.
 
 ---
 
 ## 🧠 Notes
 - The backend must validate the UUID and match it with employee records.
-- The comas-rfid-attendance.ino sketch uses a debounce mechanism to prevent duplicate scans.
+- The `comas-rfid-attendance.ino` sketch uses a debounce mechanism to prevent duplicate scans.
 - All writes use default MIFARE authentication keys (FF FF FF FF FF FF) on block 4.
 
 ---
@@ -82,9 +82,9 @@ This sketch is used to either:
 
 <img width="780" alt="image" src="https://github.com/user-attachments/assets/66d5faed-dc00-4722-b561-abeeb0943a00" />
 
-
 ---
 
 ## 🔐 Security Notice
 - Always secure your backend endpoint (https://...) with SSL/TLS.
 - RFID cards are not cryptographically secure by themselves—do not store sensitive data on them.
+
