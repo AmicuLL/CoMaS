@@ -1,0 +1,19 @@
+{
+    "title": "Clocking In/Out",
+    "clock_in": "Clock In",
+    "clock_out": "Clock Out",
+    "notification": {
+      "clock_in_success_title": "Clock-in successful!",
+      "clock_in_success_message": "You clocked in at: ",
+      "clock_out_success_title": "Clock-out successful!",
+      "clock_out_success_message": "You clocked out at: ",
+      "clock_in_error_title": "Unable to clock in!",
+      "clock_in_error_message": "An entry already exists. You might have clocked in earlier.",
+      "clock_out_error_title": "Unable to clock out!",
+      "clock_out_error_message": "An entry already exists. You might have already clocked out.",
+      "clock_out_error_message_before_clock_in": "You need to clock in before clocking out.",
+      "general_error_title": "An error occurred.",
+      "general_error_message": "Error reported by the server: "
+    }
+  }
+  

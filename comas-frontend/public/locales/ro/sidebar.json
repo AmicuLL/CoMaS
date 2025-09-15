@@ -1,0 +1,26 @@
+{
+  "dashboard": "Tablou de bord",
+  "users": "Utilizatori",
+  "administration": {
+    "title": "Administrare",
+    "add_edit_user_account": "Gestionare utilizatori",
+    "add_edit_employee_account": "Gestionare angajați",
+    "add_edit_timesheet": "Gestionare pontaje",
+    "add_edit_inventory": "Gestionare inventar",
+    "add_edit_task": "Gestionare sarcini",
+    "add_edit_project": "Gestionare proiecte",
+    "add_edit_team": "Gestionare echipe"
+  },
+  "project": "Proiecte",
+  "timesheet": "Pontaj",
+  "messages": "Mesaje",
+  "notifications": "Notificări",
+  "inventory": "Inventar",
+  "settings": {
+    "title": "Setări",
+    "account_user": "Cont utilizator",
+    "account_employee": "Cont angajat",
+    "account_client": "Cont client"
+  },
+  "logout": "Deconectare"
+}

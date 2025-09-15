@@ -1,0 +1,37 @@
+{
+  "title": "Cont Client",
+  "company_name": {
+    "label": "Numele companiei",
+    "description": "Te rugăm să introduci numele companiei tale",
+    "placeholder": "Numele companiei"
+  },
+  "contact_person": {
+    "label": "Persoană de contact",
+    "description": "Introdu numele tău sau al persoanei de contact din companie",
+    "placeholder": "Persoană de contact"
+  },
+  "email": {
+    "label": "Email",
+    "description": "Introdu adresa de email a companiei",
+    "placeholder": "exemplu@exemplu.com"
+  },
+  "phone": {
+    "label": "Telefon",
+    "description": "Introdu numărul de telefon al companiei",
+    "placeholder": "0XXXXXXXXX"
+  },
+  "button": {
+    "update": "Actualizează",
+    "revert": "Resetează"
+  },
+  "notification": {
+    "success_title": "Informațiile au fost actualizate",
+    "success_message": "Serverul a actualizat cu succes informațiile. Pagina se va reîncărca în 5 secunde.",
+    "error_nocontent_title": "Serverul nu a returnat conținut",
+    "error_nocontent_message": "Lipsa conținutului din partea serverului poate indica o eroare la identificarea contului. Te rugăm să contactezi administratorul.",
+    "error_title": "Actualizarea a eșuat",
+    "error_message": "Serverul nu a putut actualiza informațiile. Răspunsul serverului:",
+    "error_occured_title": "A apărut o eroare necunoscută",
+    "error_occured_message": "Te rugăm să încerci din nou mai târziu sau să verifici datele introduse."
+  }
+}

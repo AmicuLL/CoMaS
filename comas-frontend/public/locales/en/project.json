@@ -1,0 +1,103 @@
+{
+  "title": "Projects",
+  "no_projects": "No projects available to display.",
+  "project": "Project",
+  "lack_client": "No client assigned / Client missing",
+  "start_date": "Start Date",
+  "end_date": "End Date",
+  "budget": "Budget",
+  "project_employees": "Project Team",
+  "task_employee": "Task Assignees",
+  "completion_percentage": "Completion Rate",
+  "task": "Tasks",
+  "status": {
+    "title": "Project Status",
+    "NOT_SET": "Status not specified",
+    "INITIATED": "Initiated",
+    "IN_PROGRESS": "In Progress",
+    "FINISHED": "Completed",
+    "STOPPED": "Halted",
+    "PRIORITY": "Priority Project"
+  },
+  "tooltips": {
+    "project_employee_info": "Click to view employee details",
+    "project_employee_manager": "This employee is the project manager"
+  },
+  "filter": {
+    "by_client": "Filter by Client",
+    "by_status": "Filter by Project Status",
+    "by_employees": "Filter by Employees"
+  },
+  "employee_project_manager": "Project Manager",
+  "admin": {
+    "activate_edit": "Enable editing?",
+    "no_employee": "No employee found...",
+    "client": {
+      "name": "Client Name",
+      "placeholder": "Select or enter client name",
+      "not_set": "Client name not set"
+    },
+    "project": {
+      "name": "Project Name",
+      "placeholder": "Enter project name",
+      "not_set": "Project name not set"
+    },
+    "start_date": {
+      "title": "Project Start Date",
+      "placeholder": "Select project start date"
+    },
+    "end_date": {
+      "title": "Project End Date",
+      "placeholder": "Select project end date"
+    },
+    "project_tasks": {
+      "title": "Project Tasks",
+      "name": "Task Name",
+      "name_placeholder": "Enter task name",
+      "detail": "Task Details",
+      "detail_placeholder": "Enter task details",
+      "completion": "Task Completion Percentage",
+      "employee": "Task Assignees",
+      "employee_placeholder": "Enter employees assigned to this task",
+      "modal_title": "Delete Confirmation",
+      "modal_content": "Are you sure you want to delete the task ",
+      "modal_buttons": {
+        "confirm": "Delete",
+        "cancel": "Cancel"
+      }
+    },
+    "project_manager": {
+      "title": "Project Manager",
+      "placeholder": "Select project manager",
+      "not_set": "Not set"
+    },
+    "project_members": {
+      "title": "Project Members",
+      "placeholder": "Enter employees working on this project",
+      "not_set": "Not set"
+    },
+    "project_budget": {
+      "title": "Project Budget",
+      "placeholder": "Enter project budget"
+    },
+    "project_completion": {
+      "title": "Project Completion Percentage",
+      "placeholder": "Enter project completion percentage"
+    },
+    "project_status": {
+      "title": "Project Status",
+      "placeholder": "Select project status",
+      "not_set": "Not set"
+    },
+    "not_set": "Not set",
+    "buttons": {
+      "modify": "Update",
+      "delete_task": "Delete Task",
+      "delete_project": "Delete Project"
+    },
+    "notification": {
+      "project_update": "Project Updated",
+      "project_update_content": "The server has successfully updated the project."
+    }
+  }
+}

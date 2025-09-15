@@ -1,0 +1,17 @@
+{
+    "reset_width": "Reset Width",
+    "reset_order": "Reset Order",
+    "reset_toggle": "Reset Toggle",
+    "timesheet_title": "Timesheets",
+    "of": "of",
+    "clock_in": "Clock In",
+    "clock_out": "Clock Out",
+    "day": "Work Day",
+    "penalization": "Penalization",
+    "work_time": "Work Time",
+    "employee": "Employee",
+    "duration": "Duration",
+    "duration_placeholder": "Select a range of dates",
+    "employee_placeholder": "Select an employee",
+    "employee_dont_sort": "Don't sort by an employee"
+}

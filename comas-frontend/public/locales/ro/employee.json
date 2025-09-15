@@ -1,0 +1,41 @@
+{
+    "title": "Angajați",
+    "employee":{
+        "id": "ID",
+        "first_name":"Prenume",
+        "last_name": "Nume",
+        "position": "Poziția",
+        "hire_date": "Data angajării",
+        "email": "Email",
+        "phone": "Numărul de telefon",
+        "working_hours": "Intervalul de lucru",
+        "break_time": "Durata pauzei",
+        "euuid": "Cheia angajatului",
+        "start_hour": "Programul începe la",
+        "end_hour": "Programul se oprește la"
+    },
+    "filter": {
+        "title": "Filtrează angajații",
+        "placeholder": "Toți"
+    },
+    "buttons": {
+        "add": "Adaugă angajat",
+        "delete": "Șterge",
+        "edit": "Editează",
+        "cancel": "Anulează",
+        "confirm": "Confirm ștergerea"
+    },
+    "modal": {
+        "type": {
+            "add": "Adaugă angajat",
+            "edit": "Editează angajat",
+            "delete": "Confirmare ștergere angajat"
+        },
+        "confirm_delete": "Ești sigur că vrei șă ștergi angajatul"
+    },
+    "error": {
+        "email": "Email invalid",
+        "phone": "Număr de telefon invalid"
+    },
+    "no_employee": "Nu există angajați pentru afișare"
+}

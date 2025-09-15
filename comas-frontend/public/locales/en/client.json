@@ -1,0 +1,37 @@
+{
+  "title": "Client Account",
+  "company_name": {
+    "label": "Company Name",
+    "description": "Please enter the name of your company",
+    "placeholder": "Company Name"
+  },
+  "contact_person": {
+    "label": "Contact Person",
+    "description": "Enter your name or the name of your company's contact person",
+    "placeholder": "Contact Person"
+  },
+  "email": {
+    "label": "Email",
+    "description": "Enter your company's email address",
+    "placeholder": "example@example.com"
+  },
+  "phone": {
+    "label": "Phone",
+    "description": "Enter your company's phone number",
+    "placeholder": "0XXXXXXXXX"
+  },
+  "button": {
+    "update": "Update",
+    "revert": "Revert"
+  },
+  "notification": {
+    "success_title": "Information Updated",
+    "success_message": "The server has successfully updated the information. The page will reload in 5 seconds.",
+    "error_nocontent_title": "No Content Received from Server",
+    "error_nocontent_message": "The server returned no content, which may indicate an error retrieving your account. Please contact the administrator.",
+    "error_title": "Update Failed",
+    "error_message": "The server was unable to update the information. Server response:",
+    "error_occured_title": "An Unknown Error Occurred",
+    "error_occured_message": "Please try again later or verify the data you've entered."
+  }
+}

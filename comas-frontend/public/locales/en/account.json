@@ -1,0 +1,63 @@
+{
+    "account_details": {
+      "title": "Account details",
+      "personal_information": "Personal information",
+      "username": "Username",
+      "email": "Email",
+      "avatar": "Avatar",
+      "button_personal_information": "Edit Personal Information",
+      "button_change_password": "Change password"
+    },
+    "account_information": {
+      "title": "Account information",
+      "id": "ID",
+      "creation_date": "Creation date",
+      "creation_date_at": "at",
+      "type": "Type",
+      "user_ref_id": "User reference ID",
+      "role": "Role",
+      "permissions": "Permissions"
+    },
+    "password_change": {
+      "title": "Password change for your account",
+      "current_password": "Input current password",
+      "current_password_placeholder": "Current/old password",
+      "new_password": "Input new password",
+      "new_password_placeholder": "New password",
+      "confirm_password": "Reinput the new password",
+      "confirm_password_placeholder": "Confirm password",
+      "notification": {
+        "success_title": "Password changed",
+        "success_mesage": "The page will reload in 3 seconds",
+        "error_title": "An error occurred.",
+        "error_message": "Error reported by the server: ",
+        "password_error_title": "Password error",
+        "empty_current_password": "The current password field cannot be empty. Please fill it in with your password.",
+        "empty_new_password": "To change your password, you must enter a new password in the dedicated field.",
+        "password_match_error": "The confirmation password is not the same as the new password.",
+        "password_strength_error": "The password entered does not meet the criteria."
+      }
+    },
+    "information_change": {
+        "title": "Modify your account information",
+        "username": "Change username",
+        "username_placeholder": "Username",
+        "email": "Change email",
+        "email_placeholder": "Email address",
+        "avatar": "Change avatar",
+        "avatar_placeholder": "Enter an avatar link",
+        "notification": {
+            "success_title": "Information updated",
+            "success_mesage": "Your data was successfully updated. The page will refresh in 5 seconds to reflect the changes.",
+            "success_mesage_username": "Your username was changed. For security reasons, you need to log in again. The page will reload automatically in 10 seconds.",
+            "no_change_title": "Information not updated", 
+            "no_change_message": "The server did not record any changes. Perhaps the data entered does not meet the requirements or has not been modified from the original version.",
+            "username_wrong": "The username you entered is invalid! It must be at least 5 characters long.",
+            "email_wrong": "The email address you entered is not valid. Please correct it to update your data.",
+            "error_title": "Error",
+            "error_message": "An error occurred, reported by the server: "
+        }
+    }
+
+
+}

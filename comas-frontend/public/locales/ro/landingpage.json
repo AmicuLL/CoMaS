@@ -1,0 +1,88 @@
+{
+    "welcome" : "Bine ai venit la ",
+    "introduction": {
+        "title": "Gestionează-ți compania eficient și intuitiv",
+        "detail": "Aplicația noastră oferă o soluție completă pentru administrarea activităților din cadrul companiei tale. Fiecare angajat are acces la funcționalități esențiale pentru colaborare și productivitate:",
+        "task_message": "vizualizarea sarcinilor atribuite,",
+        "project_message": "acces la proiectele în care este implicat,",
+        "inventory_message": "vizualizarea inventarului,",
+        "messages_message": "mesagerie internă (privată și globală),",
+        "notifications_message": "notificări despre schimbări."
+    },
+    "roles_and_capabilities": {
+        "title": "Roluri și capabilități",
+        "employee": {
+            "user_type": "Utilizator angajat",
+            "title": "Un angajat autentificat în aplicație are acces doar la informațiile și funcțiile relevante activității proprii. El poate să:",
+            "task_project_message": "vizualizeze sarcinile și proiectele în care este implicat,",
+            "timesheet_message": "adauge pontaje zilnice pentru activitatea desfășurată,",
+            "messages_message": "primească și trimită mesaje colegilor sau mesaje globale,",
+            "inventory_message": "vizualizeze inventarul, în funcție de permisiune,",
+            "notifications_message": "primescă notificări despre atribuirea unor sarcini, actualizări sau mesaje noi.",
+            "detail": "Este un mediu simplu și productiv, gândit să reducă timpul pierdut și să crească transparența activității zilnice."
+        },
+        "client": {
+            "user_type": "Utilizator client",
+            "title": "Clientul este un utilizator extern care poate fi înregistrat și atribuit unuia sau mai multor proiecte prin contact direct cu firma. El poate să:",
+            "project_message": "vizualizeze proiectele lui,",
+            "task_message": "vada stadiul sarcinilor din cadrul acelor proiecte,",
+            "messages_message": "trimită mesaje către angajații companiei care gestionează proiectul său,",
+            "employee_details": "să vadă datele de contact al angajaților care sunt atribuiți proiectului său.",
+            "detail": "Clientul nu are acces la funcționalități interne ale firmei (pontaj, inventar etc.) și nu poate vizualiza datele altor utilizatori."
+        },
+        "admin": {
+            "user_type": "Utilizator angajat cu permisiuni pentru administrare",
+            "title": "Administratorul are acces extins și control complet asupra aplicației. Poate sâ:",
+            "user_manage": "Creeze, editeze și șteargă utilizatori, angajați și clienți.",
+            "permissions_manage": "Configureze permisiunile fiecărui utilizator în detaliu.",
+            "timesheet_manage": "Vizualizeze și modifice toate pontajele angajaților.",
+            "project_task_manage": "Creeze și gestioneze proiecte și sarcini.",
+            "inventory_manage": "Gestioneze inventarul (adăugare, modificare, ștergere).",
+            "detail": "Datorită controlului granular cu permisiuni asupra accesului la date și funcții, nu există neapărat un rol de administrator, dar cu fiecare permisiune pe care o are, acesta poate să configureze și întreține aplicației la nivel organizațional."
+        }
+    },
+    "features": {
+        "title": "Funcționalități detaliate",
+        "dashboard": {
+            "title": "Tablou de bord",
+            "brief": "Conține informații personalizate: pontare, tabel cu pontajul pe luna respectivă, proiecte și sarcinile active.",
+            "use": "Util pentru utilizatorii de tip angajat, cu conținut adaptat în funcție de rol"
+        },
+        "timesheets": {
+            "title": "Pontaje",
+            "checkin": "Adăugare rapidă a pontajului pentru angajați.",
+            "filter": "Filtrare după dată sau interval de timp.",
+            "admin": "Utilizatorii cu permisiuni pot vizualiza pontajele tuturor."
+        },
+        "tasks_projects": {
+            "title": "Proiecte și sarcini",
+            "project": "Proiectele sunt vizibile doar utilizatorilor implicați. Ele includ: client, buget, datele de început și sfârșit proiect, stare, procentajul de finalizare, echipa, sarcini.",
+            "task": "Sarcinile includ titlu, descriere, termen limită, progres și responsabil.",
+            "admin": "Utilizatorii cu permisiuni pot vizualiza toate proiectele și toate sarcinile."
+        },
+        "messages": {
+            "title": "Mesagerie internă",
+            "sending": "Trimitere de mesaje private și mesaje de tip broadcast.",
+            "history": "Istoric de conversație pentru fiecare fir de discuție.",
+            "notifications": "Notificări automate pentru mesaje noi, excluse cele de tip globale pentru a reduce spam-ul."
+        },
+        "inventory": {
+            "title": "Inventar",
+            "view": "Vizualizarea inventorului este posibilă dacă utilizatorul are permisiunea respectivă",
+            "edit": "Gestionarea inventarului (modificare sau ștergere) este posibilă dacă utilizatorul are permisiuniea necesară.",
+            "filter": "Filtrare după tip, nume, cod"
+        },
+        "ui_interface": {
+            "title": "Internaționalizare și interfață utilizator",
+            "multi_language": "Aplicația este disponibilă în română și engleză, cu posibilitate de extindere.",
+            "theme": "Temă light și dark, responsive, dar este cel mai optimizată pentru desktop."
+        },
+        "security": {
+            "title": "Securitate",
+            "http_only": "Login cu token HTTP-only, cu o protecție mai mare în cazul unui atac XSS.",
+            "permissions": "Control strict al permisiunilor în backend.",
+            "validation": "Datele sensibile sunt validare riguros în partea de backend",
+            "data_leak": "Protecție împotriva accesului neautorizat la date."
+        }
+    }
+}

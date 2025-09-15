@@ -1,0 +1,20 @@
+{
+    "title": "Messages",
+    "select_conversation": "Select conversation:",
+    "all_messages": "All messages",
+    "new_message": "Write new message...",
+    "send_new_message_to": "Select a user:",
+    "send_new_message_to_all": "To all users",
+    "edit_message": "Edit message",
+    "delete_message": "Delete message",
+    "message_input_placeholder": "Type a message...",
+    "send_button": "Send",
+    "newest_button": "Scroll to newest",
+    "notification": {
+        "received_message_title": "You received a message.",
+        "received_message_content": "sent you a message.",
+        "sent_message": "Message sent.",
+        "sent_message_content": "You sent a message to",
+        "error_sending": "Message was not sent."
+    }
+}

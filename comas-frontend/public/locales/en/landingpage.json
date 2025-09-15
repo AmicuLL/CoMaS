@@ -1,0 +1,88 @@
+{
+  "welcome": "Welcome to ",
+  "introduction": {
+    "title": "Manage your company efficiently and intuitively",
+    "detail": "Our application offers a complete solution for managing activities within your company. Each employee has access to essential features for collaboration and productivity:",
+    "task_message": "view assigned tasks,",
+    "project_message": "access projects they are involved in,",
+    "inventory_message": "view the inventory,",
+    "messages_message": "internal messaging (private and global),",
+    "notifications_message": "notifications about changes."
+  },
+  "roles_and_capabilities": {
+    "title": "Roles and capabilities",
+    "employee": {
+      "user_type": "Employee user",
+      "title": "An authenticated employee has access only to the information and functions relevant to their activity. They can:",
+      "task_project_message": "view the tasks and projects they are involved in,",
+      "timesheet_message": "add daily timesheets for their activities,",
+      "messages_message": "receive and send messages to colleagues or broadcast messages,",
+      "inventory_message": "view the inventory, depending on permissions,",
+      "notifications_message": "receive notifications about assigned tasks, updates, or new messages.",
+      "detail": "It's a simple and productive environment, designed to reduce wasted time and increase transparency in daily work."
+    },
+    "client": {
+      "user_type": "Client user",
+      "title": "The client is an external user who can be registered and assigned to one or more projects through direct contact with the company. They can:",
+      "project_message": "view their assigned projects,",
+      "task_message": "see the status of tasks within those projects,",
+      "messages_message": "send messages to the company employees managing their project,",
+      "employee_details": "see the contact details of the employees assigned to their project.",
+      "detail": "The client does not have access to internal company functionalities (timesheets, inventory, etc.) and cannot see other users' data."
+    },
+    "admin": {
+      "user_type": "Employee user with administrative permissions",
+      "title": "The administrator has extended access and full control over the application. They can:",
+      "user_manage": "Create, edit, and delete users, employees, and clients.",
+      "permissions_manage": "Configure each user's permissions in detail.",
+      "timesheet_manage": "View and modify all employee timesheets.",
+      "project_task_manage": "Create and manage projects and tasks.",
+      "inventory_manage": "Manage inventory (add, modify, delete).",
+      "detail": "Due to granular permission control, there isn’t necessarily a fixed 'admin' role, but each granted permission allows the user to configure and maintain the application at an organizational level."
+    }
+  },
+  "features": {
+    "title": "Detailed Features",
+    "dashboard": {
+      "title": "Dashboard",
+      "brief": "Contains personalized information: check-in, current month's timesheet table, active projects and tasks.",
+      "use": "Useful for employee-type users, with content adapted to their role."
+    },
+    "timesheets": {
+      "title": "Timesheets",
+      "checkin": "Quick check-in functionality for employees.",
+      "filter": "Filter by date or time range.",
+      "admin": "Users with permissions can view all timesheets."
+    },
+    "tasks_projects": {
+      "title": "Projects and Tasks",
+      "project": "Projects are visible only to involved users. They include: client, budget, project start and end dates, status, completion percentage, team, tasks.",
+      "task": "Tasks include title, description, deadline, progress, and responsible person.",
+      "admin": "Users with permissions can view all projects and tasks."
+    },
+    "messages": {
+      "title": "Internal Messaging",
+      "sending": "Send private messages and broadcast messages.",
+      "history": "Conversation history for each thread.",
+      "notifications": "Automatic notifications for new messages, excluding global ones to reduce spam."
+    },
+    "inventory": {
+      "title": "Inventory",
+      "view": "Inventory viewing is available if the user has the appropriate permission.",
+      "edit": "Inventory management (edit or delete) is possible if the user has the required permission.",
+      "filter": "Filter by type, name, code."
+    },
+    "ui_interface": {
+      "title": "Internationalization and User Interface",
+      "multi_language": "The application is available in Romanian and English, with the possibility to expand.",
+      "theme": "Light and dark theme, responsive, but best optimized for desktop."
+    },
+    "security": {
+      "title": "Security",
+      "http_only": "Login via HTTP-only token, offering better protection against XSS attacks.",
+      "permissions": "Strict backend permission control.",
+      "validation": "Sensitive data is rigorously validated on the backend.",
+      "data_leak": "Protection against unauthorized data access."
+    }
+  }
+}

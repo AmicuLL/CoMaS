@@ -1,0 +1,26 @@
+{
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "administration": {
+        "title": "Administration",
+        "add_edit_user_account": "Users management",
+        "add_edit_employee_account": "Employees management",
+        "add_edit_timesheet": "Timesheets management",
+        "add_edit_inventory": "Inventory managment",
+        "add_edit_task": "Tasks management",
+        "add_edit_project": "Projects management",
+        "add_edit_team": "Teams management"
+    },
+    "project": "Projects",
+    "timesheet": "Timesheet",
+    "messages": "Messages",
+    "notifications": "Notifications",
+    "inventory": "Inventory",
+    "settings": {
+        "title": "Settings",
+        "account_user": "User Account",
+        "account_employee": "Employee Account",
+        "account_client": "Client Account"
+    },
+    "logout": "Logout"
+}

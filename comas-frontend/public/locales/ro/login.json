@@ -1,0 +1,16 @@
+{
+    "title": "Bine ai revenit!",
+    "username": "Nume de utilizator",
+    "username_placeholder": "Numele tău de utilizator",
+    "password": "Parolă",
+    "password_placeholder": "Parola ta",
+    "remember_me": "Ține-mă minte",
+    "forgot_password": "Ai uitat parola?",
+    "button_login": "Autentificare",
+    "alert": {
+        "title": "Alertă eroare",
+        "empty_fields": "Numele de utilizator sau parola sunt goale!",
+        "server_error": "Serverul a răspuns cu o eroare. Eroarea: ",
+        "user_pass_wrong": "Numele de utilizator sau parola sunt greșite"
+    }
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Inventory",
+  "item_add": "Add",
+  "item_name": "Name",
+  "item_manufacturer": "Manufacturer",
+  "item_code": "Code",
+  "item_description": "Description",
+  "item_type": "Type",
+  "item_location": "Location",
+  "item_image": "Image",
+  "item_quantity": "Quantity",
+  "item_min_quantity": "Minimum Quantity",
+  "item_is_quantity_low": {
+    "title": "Need Restock?",
+    "low_stock": "Low stock",
+    "below_min": "Restock needed",
+    "above_min": "Stock level sufficient",
+    "never": "No minimum stock defined"
+  },
+  "item_types": {
+    "sort_type": "Filter by Type",
+    "search": "Search Items",
+    "ALL": "All",
+    "TOOL": "Tool",
+    "MATERIAL": "Material",
+    "EQUIPMENT": "Equipment",
+    "DEVICES": "Devices",
+    "MISCELLANEOUS": "Miscellaneous"
+  },
+  "no_items": "No items found...",
+  "table": {
+    "action": "Actions",
+    "item": "Items",
+    "of": "of",
+    "reset_width": "Reset Column Width",
+    "reset_order": "Reset Sorting Order",
+    "reset_toggle": "Reset Column Visibility"
+  },
+  "update": "Update",
+  "reset": "Reset",
+  "delete": "Delete",
+  "notification": {
+    "item_removed": "Item Deleted",
+    "item_removed_content": "was successfully removed from the database.",
+    "item_remove_error": "Item was not deleted",
+    "item_remove_error_content": "An error occurred while removing the item. Message from the system: ",
+    "item_added": "Item Added",
+    "item_added_content": "was successfully added to the inventory.",
+    "item_add_error": "Error Adding Item",
+    "item_add_error_content": "An error occurred while adding this item. Message from the system:",
+    "item_update": "Item updated",
+    "item_update_content": " was successfully updated. Database acknowledged.",
+    "item_update_error": "Error updating item",
+    "item_update_error_content": "An error occurred while updating this item. Message from the system:"
+  }
+}

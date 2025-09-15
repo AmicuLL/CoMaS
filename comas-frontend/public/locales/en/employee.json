@@ -1,0 +1,41 @@
+{
+  "title": "Employees",
+  "employee": {
+    "id": "ID",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "position": "Position",
+    "hire_date": "Hire Date",
+    "email": "Email",
+    "phone": "Phone Number",
+    "working_hours": "Working Hours",
+    "break_time": "Break Duration",
+    "euuid": "Employee Key",
+    "start_hour": "Start Time",
+    "end_hour": "End Time"
+  },
+  "filter": {
+    "title": "Filter Employees",
+    "placeholder": "All"
+  },
+  "buttons": {
+    "add": "Add Employee",
+    "delete": "Delete",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "confirm": "Confirm Deletion"
+  },
+  "modal": {
+    "type": {
+      "add": "Add Employee",
+      "edit": "Edit Employee",
+      "delete": "Confirm Employee Deletion"
+    },
+    "confirm_delete": "Are you sure you want to delete employee"
+  },
+  "error": {
+    "email": "Invalid email",
+    "phone": "Invalid phone number"
+  },
+  "no_employee": "No employees to display"
+}

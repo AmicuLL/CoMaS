@@ -1,0 +1,104 @@
+{
+    "title": "Proiecte",
+    "no_projects": "Nu există proiecte disponibile pentru afișare.",
+    "project": "Proiect",
+    "lack_client": "Client neatribuit / Client lipsă",
+    "start_date": "Data început",
+    "end_date": "Data final",
+    "budget": "Buget",
+    "project_employees": "Echipa proiectului",
+    "task_employee": "Responsabili sarcini",
+    "completion_percentage": "Grad de finalizare",
+    "task": "Sarcini",
+    "status": {
+      "title": "Starea proiectului",
+      "NOT_SET": "Stare nespecificată",
+      "INITIATED": "Inițiat",
+      "IN_PROGRESS": "În desfășurare",
+      "FINISHED": "Finalizat",
+      "STOPPED": "Oprit",
+      "PRIORITY": "Proiect prioritar"
+    },
+    "tooltips": {
+      "project_employee_info": "Click pentru detalii angajat",
+      "project_employee_manager": "Acest angajat este managerul proiectului"
+    },
+    "filter": {
+      "by_client": "Filtrează după client",
+      "by_status": "Filtrează după starea proiectului",
+      "by_employees": "Filtrează după angajați"
+    },
+    "employee_project_manager": "Manager proiect",
+    "admin": {
+      "activate_edit": "Activează editarea?",
+      "no_employee": "Niciun angajat găsit...",
+      "client": {
+        "name": "Nume client",
+        "placeholder": "Selectează sau introdu numele clientului",
+        "not_set": "Numele clientului nu este setat"
+      },
+      "project": {
+        "name": "Nume proiect",
+        "placeholder": "Introdu numele proiectului",
+        "not_set": "Numele proiectului nu este setat"
+      },
+      "start_date": {
+        "title": "Data de început a proiectului",
+        "placeholder": "Selectează data de început"
+      },
+      "end_date": {
+        "title": "Data de final a proiectului",
+        "placeholder": "Selectează data de final"
+      },
+      "project_tasks": {
+        "title":"Sarcinile proiectului",
+        "name": "Numele sarcini",
+        "name_placeholder": "Introdu numele sarcinii",
+        "detail": "Detaliile sarcini",
+        "detail_placeholder": "Introdu detaliile sarcinii",
+        "completion": "Procentajul de finalizare a sarcinii",
+        "employee": "Angajații repartizați sarcinii",
+        "employee_placeholder": "Introdu angajații repartizați acestei sarcini",
+        "modal_title": "Confirmare ștergere",
+        "modal_content": "Ești sigur că vrei să ștergi task-ul ",
+        "modal_buttons": {
+            "confirm": "Șterge",
+            "cancel": "Anulează"
+        }
+      },
+      "project_manager": {
+        "title": "Manager proiect",
+        "placeholder": "Selectează managerul proiectului",
+        "not_set": "Nesetat"
+      },
+      "project_members": {
+        "title": "Membrii proiectului",
+        "placeholder": "Introdu angajații care lucrează la proiect",
+        "not_set": "Nesetat"
+      },
+      "project_budget": {
+        "title": "Buget proiect",
+        "placeholder": "Introdu bugetul proiectului"
+      },
+      "project_completion": {
+        "title": "Procent finalizare proiect",
+        "placeholder": "Introdu procentul de finalizare"
+      },
+      "project_status": {
+        "title": "Starea proiectului",
+        "placeholder": "Selectează starea proiectului",
+        "not_set": "Nesetat"
+      },
+      "not_set": "Nesetat",
+      "buttons": {
+        "modify": "Actualizează",
+        "delete_task": "Șterge sarcina",
+        "delete_project": "Șterge proiectul"
+      },
+      "notification": {
+        "project_update": "Proiect actualizat",
+        "project_update_content": "Serverul s-a ocupat de actualizarea proiectul."
+      }
+    }
+  }
+  

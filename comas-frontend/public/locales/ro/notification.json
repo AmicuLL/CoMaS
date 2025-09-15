@@ -1,0 +1,24 @@
+{
+    "title": "Notificări",
+    "no_notification": "Nu ai notificări",
+    "message_field": "Mesaje",
+    "info": "Click pentru informații",
+    "info_text": "Aici poți vedea toate notificările tale. \nNotă: Notificările sunt șterse automat după o lună.",
+    "action_field": "Acțiuni",
+    "sent_message": "ți-a trimis un mesaj.",
+    "sent_at": "Mesajul a fost trimis la:",
+    "message_tooltip": {
+        "delete": "Șterge",
+        "set_read": "Marchează ca citit"
+    },
+    "action_notif": {
+        "project_added": "Un nou proiect a fost creat pentru dumneavoastră de către:",
+        "project_timestamp": "Creat la:",
+        "project_assigned": "Ți-a fost atribuit un proiect de către:",
+        "project_assigned_as_manager": "Ai fost numit responsabil la un proiecte de către:",
+        "project_assigned_timestamp": "Atribuit la:",
+        "project_deleted": "Proiectul dumneavoastră a fost șters de către:",
+        "project_deleted_timestamp": "Șters la:"
+        
+    }
+}

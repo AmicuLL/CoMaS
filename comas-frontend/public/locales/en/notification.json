@@ -1,0 +1,23 @@
+{
+    "title": "Notifications",
+    "no_notification": "You don't have notifications",
+    "message_field": "Messages",
+    "info": "Click for informations",
+    "info_text": "Here you can see all your notifications. \nNote: Notifications are automatically deleted after one month.",
+    "action_field": "Actions",
+    "sent_message": "has sent you a message.",
+    "sent_at": "Message was sent at:",
+    "message_tooltip": {
+        "delete": "Delete",
+        "set_read": "Set as read"
+    },
+    "action_notif": {
+        "project_added": "A new project has been created for you by:",
+        "project_added_timestamp": "Created at:",
+        "project_assigned": "A project was assigned to you by:",
+        "project_assigned_as_manager": "You have been declared a project manager on a project by:",
+        "project_assigned_timestamp": "Assigned at:",
+        "project_deleted": "Your project was deleted by:",
+        "project_deleted_timestamp": "Deleted at:"
+    }
+}

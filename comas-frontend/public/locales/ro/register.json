@@ -1,0 +1,97 @@
+{
+  "title": {
+    "client": "Înregistrează-te ca Client",
+    "employee": "Înregistrează-te ca Angajat"
+  },
+  "slider": {
+    "title": "Sunt:",
+    "employee": "Angajat",
+    "client": "Client"
+  },
+  "employee_key": {
+    "label": "Cheie de acces pentru angajați",
+    "placeholder": "Introdu cheia ta de acces",
+    "info": "Este necesară o cheie de acces pentru a te înregistra ca angajat. Dacă nu o ai, contactează angajatorul tău. Dacă nu ești angajat, nu te poți înregistra aici — dar nu-ți face griji, nu pierzi nimic important.",
+    "button": "Verifică cheia"
+  },
+  "employee_register": {
+    "byRegKey_title": "Bine ai venit,"
+  },
+  "user_fields": {
+    "username_title": "Nume utilizator",
+    "username_placeholder": "Alege un nume de utilizator",
+    "email_title": "Email",
+    "email_placeholder": "Introdu adresa ta de email",
+    "avatar_title": "URL poză profil",
+    "avatar_placeholder": "Link către poza ta de profil",
+    "password": {
+      "title": "Parolă",
+      "placeholder": "Creează o parolă",
+      "confirm_title": "Confirmă parola",
+      "confirm_placeholder": "Reintrodu parola",
+      "requirements": {
+        "length": "Minim 6 caractere",
+        "number": "Trebuie să conțină cel puțin o cifră",
+        "lowercase": "Trebuie să conțină o literă mică",
+        "uppercase": "Trebuie să conțină o literă mare",
+        "symbol": "Trebuie să conțină un caracter special"
+      }
+    }
+  },
+  "employee": {
+    "firstName": "Prenume",
+    "firstName_placeholder": "Introdu prenumele",
+    "lastName": "Nume",
+    "lastName_placeholder": "Introdu numele de familie",
+    "email": "Email",
+    "email_placeholder": "Introdu adresa ta de email",
+    "phone": "Număr de telefon",
+    "phone_placeholder": "Introdu numărul tău de telefon",
+    "hireDate": "Data angajării",
+    "hireDate_placeholder": "Selectează data angajării tale"
+  },
+  "company": {
+    "name": "Nume companie",
+    "name_placeholder": "Introdu numele companiei",
+    "email": "Email companie",
+    "email_placeholder": "Introdu adresa de email a companiei",
+    "address": "Adresă companie",
+    "address_placeholder": "Introdu adresa companiei",
+    "contact_person": "Persoană de contact",
+    "contact_person_placeholder": "Introdu numele persoanei de contact",
+    "phone": "Număr de telefon",
+    "phone_placeholder": "Introdu numărul de telefon al companiei sau al persoanei de contact"
+  },
+  "button": {
+    "register": "Înregistrează-te",
+    "continue": "Continuă",
+    "back": "Înapoi"
+  },
+  "alert": {
+    "password_empty": "Parola nu îndeplinește criteriile necesare.",
+    "password_not_same": "Parolele nu coincid.",
+    "password_weak": "Parola este prea slabă.",
+    "username_empty": "Numele de utilizator este obligatoriu.",
+    "username_incorrect": "Numele de utilizator trebuie să aibă cel puțin 5 caractere.",
+    "email_empty": "Emailul este obligatoriu.",
+    "email_incorrect": "Adresă de email invalidă.",
+    "phone_empty": "Numărul de telefon este obligatoriu.",
+    "phone_incorrect": "Număr de telefon invalid.",
+    "name": "Numele este obligatoriu.",
+    "company_contact_person": "Este necesară o persoană de contact. Te rugăm să o completezi."
+  },
+  "success": {
+    "title": "Success",
+    "message": "Înregistrarea a avut loc cu success.",
+    "login_button": "Spre conectare"
+  },
+  "regKey": {
+    "error_title": "Eroare de validare",
+    "error_message_empty": "Cheia de angajat nu poate sa fie goală",
+    "error_message_no_uuid": "Cheia de angajat introdusă nu este o cheie validă!",
+    "error_server_response": "Cheia angajatului nu există.",
+    "error_server_user_exist": "Cheia de angajat a fost folosită deja!",
+    "error_server_username_email_taken": "Numele de utilizator ori email-ul este deja luat!",
+    "error_server_error": "Serverul a răspuns cu o erroare. Eroarea: "
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "reset_width": "Resetează Lățimea",
+    "reset_order": "Resetează Ordinea",
+    "reset_toggle": "Resetează Vizibilitatea",
+    "timesheet_title": "Pontaje",
+    "of": "din",
+    "clock_in": "Intrare",
+    "clock_out": "Ieșire",
+    "day": "Zi de lucru",
+    "penalization": "Penalizare",
+    "work_time": "Timp lucrat",
+    "employee": "Angajat",
+    "duration": "Durată",
+    "duration_placeholder": "Selectează un interval de date",
+    "employee_placeholder": "Selectează un angajat",
+    "employee_dont_sort": "Nu cauta după un angajat"
+}

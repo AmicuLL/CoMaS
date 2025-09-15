@@ -1,0 +1,56 @@
+{
+  "title": "Inventar",
+  "item_add": "Adaugă",
+  "item_name": "Denumire",
+  "item_manufacturer": "Producător",
+  "item_code": "Cod",
+  "item_description": "Descriere",
+  "item_type": "Tip",
+  "item_location": "Locație",
+  "item_image": "Imagine",
+  "item_quantity": "Cantitate",
+  "item_min_quantity": "Cantitate minimă",
+  "item_is_quantity_low": {
+    "title": "Necesită reaprovizionare?",
+    "low_stock": "Stoc redus",
+    "below_min": "Reaprovizionare necesară",
+    "above_min": "Stoc suficient",
+    "never": "Acest articol nu are un stoc minim definit"
+  },
+  "item_types": {
+    "sort_type": "Filtrează după tip",
+    "search": "Caută articol",
+    "ALL": "Toate",
+    "TOOL": "Sculă",
+    "MATERIAL": "Material",
+    "EQUIPMENT": "Echipament",
+    "DEVICES": "Dispozitive",
+    "MISCELLANEOUS": "Diverse"
+  },
+  "no_items": "Nu a fost găsit niciun articol...",
+  "table": {
+    "action": "Acțiune",
+    "item": "Articole",
+    "of": "din",
+    "reset_width": "Resetează lățimea coloanei",
+    "reset_order": "Resetează ordonarea",
+    "reset_toggle": "Resetează vizibilitatea coloanei"
+  },
+  "update": "Actualizează",
+  "reset": "Resetează",
+  "delete": "Șterge",
+  "notification": {
+    "item_removed": "Articol șters",
+    "item_removed_content": "a fost eliminat cu succes din baza de date.",
+    "item_remove_error": "Articolul nu a fost șters",
+    "item_remove_error_content": "A apărut o eroare la ștergerea acestui articol. Mesajul serverului este:",
+    "item_added": "Articol adăugat",
+    "item_added_content": "a fost adăugat cu succes în inventar.",
+    "item_add_error": "Eroare la adăugare",
+    "item_add_error_content": "A apărut o eroare la adăugarea acestui articol. Mesajul serverului este:",
+    "item_update": "Articol actualizat",
+    "item_update_content": " a fost actualizat cu succes. Baza de date a admis.",
+    "item_update_error": "Eroare la actualizare",
+    "item_update_error_content": "A apărut o eroare la actualizarea acestui articol. Mesajul serverului este:"
+  }
+}

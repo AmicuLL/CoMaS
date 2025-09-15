@@ -1,0 +1,97 @@
+{
+  "title": {
+    "client": "Sign Up as a Client",
+    "employee": "Sign Up as an Employee"
+  },
+  "slider": {
+    "title": "I am a:",
+    "employee": "Employee",
+    "client": "Client"
+  },
+  "employee_key": {
+    "label": "Employee Access Key",
+    "placeholder": "Enter your access key",
+    "info": "An access key is required to register as an employee. If you don’t have one, please contact your employer. If you’re not an employee, you cannot register here — but no worries, you're not missing anything important.",
+    "button": "Verify Key"
+  },
+  "employee_register": {
+    "byRegKey_title": "Welcome,"
+  },
+  "user_fields": {
+    "username_title": "Username",
+    "username_placeholder": "Choose a username",
+    "email_title": "Email",
+    "email_placeholder": "Enter your email address",
+    "avatar_title": "Avatar URL",
+    "avatar_placeholder": "Link to your profile picture",
+    "password": {
+      "title": "Password",
+      "placeholder": "Create a password",
+      "confirm_title": "Confirm Password",
+      "confirm_placeholder": "Re-enter your password",
+      "requirements": {
+        "length": "Minimum 6 characters",
+        "number": "Must include at least one number",
+        "lowercase": "Must include a lowercase letter",
+        "uppercase": "Must include an uppercase letter",
+        "symbol": "Must include a special character"
+      }
+    }
+  },
+  "employee": {
+    "firstName": "First Name",
+    "firstName_placeholder": "Enter your first name",
+    "lastName": "Last Name",
+    "lastName_placeholder": "Enter your last name",
+    "email": "Email",
+    "email_placeholder": "Enter your email",
+    "phone": "Phone Number",
+    "phone_placeholder": "Enter your phone number",
+    "hireDate": "Hire Date",
+    "hireDate_placeholder": "Pick the date you were hired."
+  },
+  "company": {
+    "name": "Company Name",
+    "name_placeholder": "Enter your company name",
+    "email": "Company Email",
+    "email_placeholder": "Enter your company’s email",
+    "address": "Company Address",
+    "address_placeholder": "Enter your company address",
+    "contact_person": "Contact Person",
+    "contact_person_placeholder": "Enter the name of the contact person",
+    "phone": "Phone Number",
+    "phone_placeholder": "Enter the phone number of the company or contact person"
+  },
+  "button": {
+    "register": "Register",
+    "continue": "Continue",
+    "back": "Back"
+  },
+  "alert": {
+    "password_empty": "Password does not meet the required criteria.",
+    "password_not_same": "Passwords do not match.",
+    "password_weak": "Password is too weak.",
+    "username_empty": "Username is required.",
+    "username_incorrect": "Username must be at least 5 characters long.",
+    "email_empty": "Email is required.",
+    "email_incorrect": "Invalid email address.",
+    "phone_empty": "Phone number is required.",
+    "phone_incorrect": "Invalid phone number.",
+    "name": "Name is required.",
+    "company_contact_person": "Contact person is required. Please provide a name."
+  },
+  "success": {
+    "title": "Success",
+    "message": "The registration was successful.",
+    "login_button": "Go to Login"
+  },
+  "regKey": {
+    "error_title": "Validation error",
+    "error_message_empty": "The employee key cannot be empty.",
+    "error_message_no_uuid": "The employee key entered is not a valid key!",
+    "error_server_response": "Employee key not found in the database.",
+    "error_server_user_exist": "The employee key is used already!",
+    "error_server_username_email_taken": "The username or email is taken!",
+    "error_server_error": "Server responded with error. The error: "
+  }
+}

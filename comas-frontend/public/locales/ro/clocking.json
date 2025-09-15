@@ -1,0 +1,19 @@
+{
+    "title": "Pontaj Intrare/Ieșire",
+    "clock_in": "Intrare",
+    "clock_out": "Ieșire",
+    "notification": {
+      "clock_in_success_title": "Pontare intrare reușită!",
+      "clock_in_success_message": "Te-ai pontat la: ",
+      "clock_out_success_title": "Pontare ieșire înregistrată!",
+      "clock_out_success_message": "Ai ieșit la: ",
+      "clock_in_error_title": "Nu se poate înregistra intrarea!",
+      "clock_in_error_message": "Există deja o înregistrare. Probabil te-ai pontat mai devreme.",
+      "clock_out_error_title": "Nu se poate înregistra ieșirea!",
+      "clock_out_error_message": "Există deja o înregistrare. Probabil ai ieșit deja.",
+      "clock_out_error_message_before_clock_in": "Trebuie să te pontezi înainte de a ieși.",
+      "general_error_title": "A apărut o eroare.",
+      "general_error_message": "Eroare trimisă de server: "
+    }
+  }
+  

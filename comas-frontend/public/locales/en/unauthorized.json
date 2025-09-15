@@ -1,0 +1,6 @@
+{
+    "title": "Unauthorized",
+    "badge": "401: Access Forbidden. But I appreciate the courage!",
+    "message": "No credentials. If you think it's an error, contact the administrator.\nOr try to convince the server with a good joke. Spoiler: it doesn't work.",
+    "button": "Go back"
+}

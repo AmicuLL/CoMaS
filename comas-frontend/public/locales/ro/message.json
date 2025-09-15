@@ -1,0 +1,20 @@
+{
+    "title": "Mesaje",
+    "select_conversation": "Selectează conversația:",
+    "all_messages": "Public",
+    "new_message": "Scrie un mesaj nou...",
+    "send_new_message_to": "Selectează utilizator:",
+    "send_new_message_to_all": "La toți utilizatorii",
+    "edit_message": "Modifică messajul",
+    "delete_message": "Șterge mesajul",
+    "message_input_placeholder": "Scrie un mesaj...",
+    "send_button": "Trimite",
+    "newest_button": "Cele mai recente",
+    "notification": {
+        "received_message_title": "Ai primit un mesaj.",
+        "received_message_content": "ți-a trimis un mesaj.",
+        "sent_message": "Mesaj trimis.",
+        "sent_message_content": "Ai trimis un mesaj la:",
+        "error_sending": "Mesajul nu a fost trimis."
+    }
+}

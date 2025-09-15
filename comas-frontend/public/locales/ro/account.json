@@ -1,0 +1,63 @@
+{
+    "account_details": {
+      "title": "Detalii cont",
+      "personal_information": "Informații personale",
+      "username": "Nume utilizator",
+      "email": "Email",
+      "avatar": "Avatar",
+      "button_personal_information": "Editează informațiile personale",
+      "button_change_password": "Schimbă parola"
+    },
+    "account_information": {
+      "title": "Informații cont",
+      "id": "ID",
+      "creation_date": "Data creării",
+      "creation_date_at": "la",
+      "type": "Tip",
+      "user_ref_id": "ID referință utilizator",
+      "role": "Rol",
+      "permissions": "Permisiuni"
+    },
+    "password_change": {
+        "title": "Schimbarea parolei pentru contul tău",
+        "current_password": "Introduceți parola curentă",
+        "current_password_placeholder": "Parola veche/curentă",
+        "new_password": "Introduceți parola nouă",
+        "new_password_placeholder": "Parola nouă",
+        "confirm_password": "Reintroduceți parola nouă",
+        "confirm_password_placeholder": "Confrimați parola",
+        "notification": {
+            "success_title": "Parolă schimbată",
+            "success_mesage": "Pagina o să se reîncarce automat în 3 secunde",
+            "error_title": "A apărut o eroare.",
+            "error_message": "Eroare trimisă de server: ",
+            "password_error_title": "Eroare la parolă",
+            "empty_current_password": "Câmpul pentru parola actuală nu poate fi gol. Te rugăm să-l completezi cu parola ta.",
+            "empty_new_password": "Pentru a schimba parola, trebuie să introduci o parolă nouă în câmpul dedicat.",
+            "password_match_error": "Parola de confirmare nu este identică cu parola nouă.",
+            "password_strength_error": "Parola introdusă nu îndeplinește criteriile."
+          }
+    },
+    "information_change": {
+    "title": "Modificarea informațiilor contului tău",
+    "username": "Modificare nume de utilizator",
+    "username_placeholder": "Nume de utilizator",
+    "email": "Modificare e-mail",
+    "email_placeholder": "Adresa de e-mail",
+    "avatar": "Modificare avatar",
+    "avatar_placeholder": "Introduceți un link către avatar",
+    "notification": {
+        "success_title": "Informațiile au fost actualizate",
+        "success_mesage": "Datele au fost actualizate cu succes. Pagina se va reîmprospăta în 5 secunde pentru a reflecta modificările.",
+        "success_mesage_username": "Numele de utilizator a fost schimbat. Din motive de securitate, este necesară reconectarea. Pagina se va reîncărca automat în 10 secunde.",
+        "no_change_title": "Informațiile nu au fost actualizate", 
+        "no_change_message": "Serverul nu a înregistrat nicio modificare. Poate că datele introduse nu îndeplinesc cerințele sau nu au fost modificate față de varianta inițială.",
+        "username_wrong": "Numele de utilizator introdus este invalid! Trebuie să aibă cel puțin 5 caractere.",
+        "email_wrong": "Adresa de email pe care ai introdus-o nu este validă. Te rugăm să o corectezi pentru a putea actualiza datele.",
+        "error_title": "Eroare",
+        "error_message": "A apărut o eroare raportată de server: "
+        }
+    }
+
+  }
+  

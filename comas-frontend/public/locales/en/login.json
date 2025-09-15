@@ -1,0 +1,16 @@
+{
+    "title": "Welcome back!",
+    "username": "Username",
+    "username_placeholder": "Your username",
+    "password": "Password",
+    "password_placeholder": "Your password",
+    "remember_me": "Remember me",
+    "forgot_password": "Forgot password?",
+    "button_login": "Sign in",
+    "alert": {
+        "title": "Error alert",
+        "empty_fields": "Username or password is blank!",
+        "server_error": "Server responded with error. The error: ",
+        "user_pass_wrong": "Username or password are wrong"
+    }
+}
