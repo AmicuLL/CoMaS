@@ -1,6 +1,3 @@
-# The project is complete. The entire project code is about to be uploaded.
-## I need to remove the sensitive data and possibly fix the bugs I noticed or at least modify this readme and include them here.
-
 # CoMaS - Company Management System
 
 CoMaS is a full-stack web application designed to simplify and automate internal management processes for small and medium-sized companies. It offers modules for employee management, projects, tasks, time tracking (manual and hardware-based), internal messaging, inventory, multilingual support, and fine-grained permissions.
@@ -117,13 +114,13 @@ Monolithic full-stack architecture:
 
 ```bash
 # Frontend
-cd frontend
+cd comas-frontend
 npm install
 npm run dev
 
 # Backend
-cd backend
-./mvnw spring-boot:run
+cd comas-backend
+mvn spring-boot:run
 ```
 Database config should be set via `application.properties`:
 ```bash
